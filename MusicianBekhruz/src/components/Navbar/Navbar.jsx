@@ -5,6 +5,13 @@ import clsx from "clsx";
 import { HiOutlineMenu } from "react-icons/hi";
 import { AiFillCloseCircle } from "react-icons/ai";
 const Navbar = () => {
+  const navigation = [
+    { name: "Home", href: "/home" },
+    { name: "Music", href: "/music" },
+    { name: "Videos", href: "/videos" },
+    { name: "About Me", href: "/aboutme" },
+    { name: "Contact", href: "/contact" },
+  ];
   const [showNavMenu, setShowNavMenu] = useState(false);
   return (
     <div className={styles.wrapper_nav}>

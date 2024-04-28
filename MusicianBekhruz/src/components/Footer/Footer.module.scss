@@ -1,0 +1,10 @@
+.footer_wrapper {
+  background-image: url("../../assets/footer.png");
+  margin-top: 4rem;
+  padding: 5rem;
+  .footer_wrapper_content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+}
